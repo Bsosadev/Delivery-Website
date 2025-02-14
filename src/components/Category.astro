@@ -7,7 +7,6 @@
   class="relative w-fit"
   x-on:keydown.esc.window="isOpen = false, openedWithKeyboard = false"
 >
-  <!-- Toggle Button -->
   <button
     type="button"
     x-on:click="isOpen = ! isOpen"
@@ -35,7 +34,6 @@
         d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path>
     </svg>
   </button>
-  <!-- Dropdown Menu -->
   <div
     x-cloak
     x-show="isOpen || openedWithKeyboard"
